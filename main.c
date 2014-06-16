@@ -13,7 +13,7 @@ unsigned int robGround[4][4];
 
 // sent to robot
 char robLSpeed=0, robRSpeed=0;
-char robRedLed=0, robGreenLed=0, robBlueLed=0;
+unsigned char robRedLed=0, robGreenLed=0, robBlueLed=0;
 
 // various
 unsigned int robotId=0;
