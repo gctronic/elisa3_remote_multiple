@@ -209,7 +209,7 @@ void handleKeyboardInput() {
 					robBlueLed = 0;
 				}
             } else if(ch == 'k') {
-                calibrateSensors(robotAddress);
+                calibrateSensors(robotAddress[robotId]);
             } else if(ch == 'h') {
                 printHelp();
             } else if(ch == 'q') {

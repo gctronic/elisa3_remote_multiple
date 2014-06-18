@@ -32,14 +32,8 @@ int main(int argc, char *argv[]) {
 
     initTerminal();
 
-    // init the communication with the RF module and thus with the robot
-    openRobotComm();
-
-    // set the address of the robot to control; if more robots (max of 4 per packet) need to be controlled
-    // the function need to be called more times with different ids (0..3) and addresses
-    for(i=0; i<4; i++) {
-        setRobotAddress(i, robotAddress[i]);
-    }
+    // init the communication with the robots; set the addresses and number of the robots to control
+    startCommunication(robotAddress, 4);
 
     while(!exitProg) {
 
@@ -53,14 +47,14 @@ int main(int argc, char *argv[]) {
         setGreen(robotAddress[robotId], robGreenLed);
 
         // update sensors data for all 4 robots
-        getAllProximity4(robProx);
-        getAllGround4(robGround);
+        getAllProximityFromAll(robProx);
+        getAllGroundFromAll(robGround);
 
         printRobotInfo();
 
     }
 
-    closeRobotComm();
+    stopCommunication();
 	closeTerminal();
 
 	return 0;
