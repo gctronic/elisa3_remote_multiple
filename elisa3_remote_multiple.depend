@@ -1,0 +1,65 @@
+# depslib dependency file v1.0
+1403087360 source:p:\lavoro\local-repo\elisaiii-working\elisa3_remote_multiple\input.c
+	"input.h"
+	"terminal.h"
+	"windows.h"
+	<ncurses.h>
+
+1402916022 p:\lavoro\local-repo\elisaiii-working\elisa3_remote_multiple\input.h
+	"elisa3-lib.h"
+
+1402916024 p:\lavoro\local-repo\elisaiii-working\elisa3_remote_multiple\terminal.h
+
+1403524530 source:p:\lavoro\local-repo\elisaiii-working\elisa3_remote_multiple\main.c
+	<stdio.h>
+	<sys/types.h>
+	<string.h>
+	<math.h>
+	"elisa3-lib.h"
+	"terminal.h"
+	"input.h"
+
+1402916024 source:p:\lavoro\local-repo\elisaiii-working\elisa3_remote_multiple\terminal.c
+	"terminal.h"
+	"input.h"
+	<stdio.h>
+	"windows.h"
+	<ncurses.h>
+
+1403087360 source:c:\users\antivirus\desktop\elisa3_remote_multiple\input.c
+	"input.h"
+	"terminal.h"
+	"windows.h"
+	<ncurses.h>
+
+1402916022 c:\users\antivirus\desktop\elisa3_remote_multiple\input.h
+	"elisa3-lib.h"
+
+1402916024 c:\users\antivirus\desktop\elisa3_remote_multiple\terminal.h
+
+1403524530 source:c:\users\antivirus\desktop\elisa3_remote_multiple\main.c
+	<stdio.h>
+	<sys/types.h>
+	<string.h>
+	<math.h>
+	"elisa3-lib.h"
+	"terminal.h"
+	"input.h"
+
+1402916024 source:c:\users\antivirus\desktop\elisa3_remote_multiple\terminal.c
+	"terminal.h"
+	"input.h"
+	<stdio.h>
+	"windows.h"
+	<ncurses.h>
+
+1614760211 c:\users\antivirus\desktop\elisa3_remote_library\elisa3-lib.h
+	<stdio.h>
+	<sys/types.h>
+	<math.h>
+	<unistd.h>
+	"usb-comm.h"
+
+1614760211 c:\users\antivirus\desktop\elisa3_remote_library\usb-comm.h
+	<stdio.h>
+
